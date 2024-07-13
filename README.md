@@ -8,74 +8,38 @@ takes 3 arguments; pixel width (in text), x coordinate (optional) y coordinate (
 
 
 
-example: ./a.out 170 -1.5 0
+example: ./a.out 70 -1.5 0
 
 output (single frame of animation):
 
-                                                                                                                                                                          
-                                                                                                                                                                          
-                                                                                                                                                  ,,                      
-                                                                                                                                                ,,,,,,,                   
-                                                                                                                                               ,,,,>,,,,,,,               
-                                                                                                                                               ,,,,,>>,,,,,>,,            
-                                                                                                                                              ,,,,,,,[/,>>>,,,,,          
-                                                                                                                                            ,,,,,,,,,,>>,,,,,,,           
-                                                                                                                                           ,,,,,,,,>>>//>/,,,,,,          
-                                                                                                                                          ,,,,,,o,,>>>XX[>,,,,,,,,,       
-                                                                                                                                   ,,,,,,,,,,,,>,>[XXXXXXX>> >,,,,,       
-                                                                                                                                  ,,,,,,,,,,,,,>> XXXXXXXXXo>,,,,,,,      
-                                                                                                                            ,,,,,,,,,,,,,,,,,,,>oXXXXXXXXXX>/,,,,,,,,,,,,,
-                                                                                                                           ,,,,,,/,,,,,,,,,,,,,,>,XXXXXXXXX/,,,,,,,,,,,,,,
-                                                                                                                        ,,,,,>>[>[,,,,,,>/[,>/>>>>/XXXXXX[>>>>>>,,[[>,,,,,
-                                                                                                                      ,,,,,,,>[/o/>o>,,>/XX/oXXXXXXXXXXXXXXXXX,>//X>>,,,,,
-                                                                                                                     ,,,,,,,,,,>[XXXX>/X>XXXXXXXXXXXXXXXXXXXXXXXXXX>,o>,>/
-                                                                                                                   ,,,,,,,,,,,,/oXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX, ,X
-                                                                                                            ,,,,,,,,,,,,,,,,,,,>>/XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-                                                                                           ,,  ,,,,        ,,,,,,,,,,,,,/>// >/XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-                                                                                        ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,>>/XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-                                                                                       ,,,,,/,,,,,,,,,,,,,,,,,,,,,,,,,,,,,>/oXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-                                                                                       ,,,/>>,,,,,,,,,,/,,,,,,,,,,,,,,,>>,oXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-                                                                                    ,,,,,,,,,>>/>>,,,,,>>>>,,>,,,,,,,,,>>[XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-                                                                                    ,,,,,,,,,,,>/X o>//> X />o/,[,,,,,,o>XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-                                                                                    ,,,,,,,,,,>>[XXX[XXXXXXXXX> ,>,,,,> XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-                                                                                   ,,,,,,,,>,>>/[XXXXXXXXXXXXXXXXX[>>>>>XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-                                                                           ,,,,,,,,,,,,,,,,,>[XXXXXXXXXXXXXXXXXXXXX>/>/XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-                                                                     ,,,,,,,,,,,,,,,,>,,,,,>> XXXXXXXXXXXXXXXXXXXXXXX/ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-                                                              ,    ,,,,,,,,,,,,,,,,,,>o/>//>/XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-                                                           ,,,,,,,,,,,,,,,,,,,,,>,,,>>oXXXXX XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-                                                      XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX 
-                                                           ,,,,,,,,,,,,,,,,,,,,,>,,,>>oXXXXX XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-                                                              ,    ,,,,,,,,,,,,,,,,,,>o/>//>/XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-                                                                     ,,,,,,,,,,,,,,,,>,,,,,>> XXXXXXXXXXXXXXXXXXXXXXX/ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-                                                                           ,,,,,,,,,,,,,,,,,>[XXXXXXXXXXXXXXXXXXXXX>/>/XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-                                                                                   ,,,,,,,,>,>>/[XXXXXXXXXXXXXXXXX[>>>>>XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-                                                                                    ,,,,,,,,,,>>[XXX[XXXXXXXXX> ,>,,,,> XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-                                                                                    ,,,,,,,,,,,>/X o>//> X />o/,[,,,,,,o>XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-                                                                                    ,,,,,,,,,>>/>>,,,,,>>>>,,>,,,,,,,,,>>[XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-                                                                                       ,,,/>>,,,,,,,,,,/,,,,,,,,,,,,,,,>>,oXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-                                                                                       ,,,,,/,,,,,,,,,,,,,,,,,,,,,,,,,,,,,>/oXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-                                                                                        ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,>>/XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-                                                                                           ,,  ,,,,        ,,,,,,,,,,,,,/>// >/XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-                                                                                                            ,,,,,,,,,,,,,,,,,,,>>/XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-                                                                                                                   ,,,,,,,,,,,,/oXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX, ,X
-                                                                                                                     ,,,,,,,,,,>[XXXX>/X>XXXXXXXXXXXXXXXXXXXXXXXXXX>,o>,>/
-                                                                                                                      ,,,,,,,>[/o/>o>,,>/XX/oXXXXXXXXXXXXXXXXX,>//X>>,,,,,
-                                                                                                                        ,,,,,>>[>[,,,,,,>/[,>/>>>>/XXXXXX[>>>>>>,,[[>,,,,,
-                                                                                                                           ,,,,,,/,,,,,,,,,,,,,,>,XXXXXXXXX/,,,,,,,,,,,,,,
-                                                                                                                            ,,,,,,,,,,,,,,,,,,,>oXXXXXXXXXX>/,,,,,,,,,,,,,
-                                                                                                                                  ,,,,,,,,,,,,,>> XXXXXXXXXo>,,,,,,,      
-                                                                                                                                   ,,,,,,,,,,,,>,>[XXXXXXX>> >,,,,,       
-                                                                                                                                          ,,,,,,o,,>>>XX[>,,,,,,,,,       
-                                                                                                                                           ,,,,,,,,>>>//>/,,,,,,          
-                                                                                                                                            ,,,,,,,,,,>>,,,,,,,           
-                                                                                                                                              ,,,,,,,[/,>>>,,,,,          
-                                                                                                                                               ,,,,,>>,,,,,>,,            
-                                                                                                                                               ,,,,>,,,,,,,               
-                                                                                                                                                ,,,,,,,                   
-                                                                                                                                                  ,,                      
-                                                                                                                                                                          
-                                                                                                                                                                          
-                                                                                                                                                                          
-                                                                                                                                                                          
-                                                                                                                                                                          
-                                                                                                                                                                          
+                                                                      
+                                                                      
+                                                                      
+                                                                      
+                                                          ,,,         
+                                                          ,,,,>,,     
+                                                         ,,,[[,,,     
+                                                     ,,,,,>XXXX/,,    
+                                                  ,,,,,,,,>XXXX,,,,,,,
+                                                ,,,,,X>[XXXXXXXXXX/>>>
+                                            ,,,,,,/>,XXXXXXXXXXXXXXXXX
+                                    ,,,,,,,,,,,,,,/XXXXXXXXXXXXXXXXXXX
+                                   ,,,,/>,>[/,,,,[XXXXXXXXXXXXXXXXXXXX
+                                   ,,>,/XXXXXXX>>XXXXXXXXXXXXXXXXXXXXX
+                            ,,,,,,,/>>,XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+                       XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX,
+                            ,,,,,,,/>>,XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+                                   ,,>,/XXXXXXX>>XXXXXXXXXXXXXXXXXXXXX
+                                   ,,,,/>,>[/,,,,[XXXXXXXXXXXXXXXXXXXX
+                                    ,,,,,,,,,,,,,,/XXXXXXXXXXXXXXXXXXX
+                                            ,,,,,,/>,XXXXXXXXXXXXXXXXX
+                                                ,,,,,X>[XXXXXXXXXX/>>>
+                                                  ,,,,,,,,>XXXX,,,,,,,
+                                                     ,,,,,>XXXX/,,    
+                                                         ,,,[[,,,     
+                                                          ,,,,>,,     
+                                                          ,,,         
+                                                                      
+                                                                      
+                                                                      
+                                                                      
