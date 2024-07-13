@@ -1,8 +1,8 @@
 #include <stdio.h>
+#include <stdlib.h>
 #include <math.h>
 #include <unistd.h>
 #include <string.h>
-
 
 int iters = 2000;
 
@@ -92,20 +92,33 @@ void zoomprint(float S, float d1, float d2, float d3, float d4, float width, flo
 }
 
 
-int main() {
+int main(int argc, char *argv[]) {
+        if (argc < 2) {
+                printf("Requires screen width arg. Example: './a.out 200' for 200 asci pixel width\n");
+                //non zero output for (user) error
+                return 1;
+        }
         //zooming in coordinates
         float X1 = -1.46;
         float Y1 = 0;
+        //optional coordinate
+        if (argc == 4) {
+                printf("including custom coordinates...");
+                //then include the coordinates
+                float X1 = atof(argv[2]);
+                float Y1 = atof(argv[3]);
+        }
         //other parameters
         float w = 2.7*2;
         float h = 1.2*2;
         //pixX = dX * S = horizontal # of pixels
         //S = pixX / dX
         //dX = wV
-        float pixX = 230;
+        float pixX = atoi(argv[1]);
         float V = 1;
         int I;
-        float vs = 200;
+        //artificial delay
+        float vs = 7000;
         for (I = 1; I <= 250000; ++I) {
                 V = 0.987*V;
                 float W = w*V;
