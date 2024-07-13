@@ -98,15 +98,20 @@ int main(int argc, char *argv[]) {
                 //non zero output for (user) error
                 return 1;
         }
-        //zooming in coordinates
-        float X1 = -1.46;
-        float Y1 = 0;
         //optional coordinate
+        printf("%d\n", argc);
+        float X1;
+        float Y1;
         if (argc == 4) {
-                printf("including custom coordinates...");
+                printf("including custom coordinates...\n");
                 //then include the coordinates
-                float X1 = atof(argv[2]);
-                float Y1 = atof(argv[3]);
+                X1 = atof(argv[2]);
+                Y1 = atof(argv[3]);
+        }
+        else {
+                //zooming in coordinates
+                X1 = -1.46;
+                Y1 = 0;
         }
         //other parameters
         float w = 2.7*2;
@@ -135,3 +140,4 @@ int main(int argc, char *argv[]) {
         }
         return 0;
 }
+
